@@ -1,0 +1,16 @@
+[package]
+name = "seg-rust-project"
+version = "0.1.0"
+edition = "2021"  
+
+
+[dependencies]
+burn = { version = "0.20", features = ["wgpu", "train", "dataset"] }
+tokenizers = "0.15"
+zip = "0.6"
+regex = "1.10"
+
+
+[dev-dependencies]
+burn = { version = "0.20.1", features = ["std"] }
+
